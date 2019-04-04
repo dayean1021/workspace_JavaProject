@@ -12,6 +12,7 @@ public class UpDownBot {
 			
 			Random random=new Random();
 			int com_num = random.nextInt(end-start+1)+start;
+			//최적화로 하는 방법 (end/start)/2
 			System.out.println(com_num);
 			
 			while(true) {

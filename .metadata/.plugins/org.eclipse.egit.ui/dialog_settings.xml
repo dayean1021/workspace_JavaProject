@@ -1,5 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
+	<list key="CommitDialog.authorValues">
+		<item value="Dayean1021 &lt;s2018s20@e-mirim.hs.kr&gt;"/>
+	</list>
+	<list key="CommitDialog.committerValues">
+		<item value="Dayean1021 &lt;s2018s20@e-mirim.hs.kr&gt;"/>
+	</list>
 	<section name="GitImportWizard">
+	</section>
+	<section name="GitCommitMessageComponent">
+		<list key="D:\2019JAVA방과후\.git">
+			<item value="false"/>
+			<item value="Dayean1021 &lt;s2018s20@e-mirim.hs.kr&gt;"/>
+			<item value="NumberToWeekDay"/>
+			<item value="Dayean1021 &lt;s2018s20@e-mirim.hs.kr&gt;"/>
+			<item value="36bb9eb6f1f38ec3decbd7c0c2058a8a15e9d05c"/>
+			<item value="0"/>
+		</list>
+	</section>
+	<section name="org.eclipse.egit.ui.internal.staging.StagingView">
+		<item value="500,500" key="STAGING_SASH_FORM_WEIGHT"/>
+		<item value="false" key="sortItemState"/>
+		<item value="500,500" key="HORIZONTAL_SASH_FORM_WEIGHT"/>
 	</section>
 </section>
