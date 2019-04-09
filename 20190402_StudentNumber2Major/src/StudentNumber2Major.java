@@ -11,7 +11,7 @@ public class StudentNumber2Major {
 		//int stunum=sc.nextInt();
 		//int grade=stunum/1000;
 		//int ban=(stunum-(grade*1000))/100;
-		String department[]= {"뉴미디어소프트웨어","뉴미디어솔루션과","뉴미디어디자인과"};
+		//String department[]= {"뉴미디어소프트웨어","뉴미디어솔루션과","뉴미디어디자인과"};
 		
 		//1학년, 2학년
 		if(grade.equals("1")||grade.equals("2")) {
