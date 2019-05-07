@@ -22,13 +22,13 @@ public class RockPaperScissors {
 			System.out.println("두구두구두구....");
 			switch(result) {
 			case -1:
-				System.out.println("졌습니다ㅠㅜ");
+				System.out.println("ㅜㅠ졌습니다ㅠㅜ");
 				break;
 			case 0:
 				System.out.println("비겼습니다");
 				break;
 			case 1:
-				System.out.println("이겼습니다!!!");
+				System.out.println("!!!이겼습니다!!!");
 				break;
 			}
 		}
