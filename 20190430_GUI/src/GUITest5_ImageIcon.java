@@ -18,6 +18,9 @@ public class GUITest5_ImageIcon {
 		//ImageIcon크기수정
 		ImageIcon smallmidorea = new ImageIcon(midorea.getImage().getScaledInstance(400, 250, Image.SCALE_DEFAULT));
 		JButton imageButton =new JButton(smallmidorea);
+		imageButton.setRolloverIcon(bakugo);//마우스 올리면
+		imageButton.setPressedIcon(midorea);//마우스 누르면
+
 		
 		panel.add(imageLabel);
 		panel.add(imageButton);
