@@ -73,9 +73,7 @@ public class GUITest6_가위바위보 {
 	}
 	
 	//컴퓨터와 사용자의 값을 비교해서 결과값을 리턴
-	private static int compare(int p, int c) {
-		int result=0;
-		
+	private static int compare(int p, int c) {		
 		if((p+1)%3==c%3) {
 			return 0;
 		} else if(p==c) {
