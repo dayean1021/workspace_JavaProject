@@ -17,8 +17,6 @@ public class GUITest10_CounterButton {
 		JPanel panel=new JPanel();
 		frame.setPreferredSize(new Dimension(300,100));
 		
-		
-		
 		//JLable, JButton
 		JLabel lbNumber =new JLabel("0");
 		lbNumber.setHorizontalAlignment(SwingConstants.CENTER); //가운데 정렬
