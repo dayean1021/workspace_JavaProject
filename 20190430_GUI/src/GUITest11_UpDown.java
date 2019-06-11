@@ -26,14 +26,15 @@ public class GUITest11_UpDown {
 			public void actionPerformed(ActionEvent e) {
 				// 사용자 입력값 가져오자
 				String input = tfInput.getText();
+				tfInput.setText("");
 				int player = Integer.parseInt(input);
 				//컴퓨터 값ㅇ랑 보여주자
 				//결과 보여주자
 				if (player>computer) {
-					lbResult.setText("DOWN");
+					lbResult.setText(input+" DOWN");
 				}
 				else if(computer>player) {
-					lbResult.setText("UP");
+					lbResult.setText(input+" UP");
 				}
 				else{
 					lbResult.setText("짝짝 ~정답입니다~ 짝짝");
@@ -43,6 +44,7 @@ public class GUITest11_UpDown {
 			}
 		};
 		btQuestion.addActionListener(al);
+		tfInput.addActionListener(al);
 		
 		panel.add(tfInput);
 		panel.add(btQuestion);
