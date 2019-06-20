@@ -14,4 +14,5 @@
 <fullyQualifiedTypeName name="java.awt.GridLayout"/>
 <fullyQualifiedTypeName name="javax.swing.SwingConstants"/>
 <fullyQualifiedTypeName name="java.awt.event.ActionListener"/>
+<fullyQualifiedTypeName name="java.awt.event.FocusListener"/>
 </qualifiedTypeNameHistroy>
